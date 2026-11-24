@@ -1,0 +1,456 @@
+{
+ "coverage": {
+  "All new releases": {
+   "titles": 1851.0,
+   "with_week1": 877.0,
+   "share_of_titles": 0.4738,
+   "share_of_views": 0.8809
+  },
+  "Without live and WWE library rows": {
+   "titles": 1462.0,
+   "with_week1": 796.0,
+   "share_of_titles": 0.5445,
+   "share_of_views": 0.8906
+  }
+ },
+ "sample": {
+  "titles": 430,
+  "by_segment": {
+   "Film / English": 50,
+   "Film / Non-English": 93,
+   "TV / English": 121,
+   "TV / Non-English": 124,
+   "Live events": 42
+  },
+  "released_jan_mar_or_jul_sep": 423,
+  "staggered_series": 42
+ },
+ "live_events": {
+  "titles": 42,
+  "wwe_raw_episodes": 37,
+  "median_multiplier": 1.1613,
+  "median_week1_share_of_window": 0.8611
+ },
+ "ranking": {
+  "Film / English": {
+   "titles": 50,
+   "rho, window": 0.9461,
+   "95% interval, window": "0.88 to 0.97",
+   "rho, after week 1": 0.8807,
+   "95% interval, after week 1": "0.78 to 0.93"
+  },
+  "Film / Non-English": {
+   "titles": 93,
+   "rho, window": 0.8842,
+   "95% interval, window": "0.81 to 0.93",
+   "rho, after week 1": 0.777,
+   "95% interval, after week 1": "0.67 to 0.85"
+  },
+  "TV / English": {
+   "titles": 121,
+   "rho, window": 0.8858,
+   "95% interval, window": "0.82 to 0.92",
+   "rho, after week 1": 0.7833,
+   "95% interval, after week 1": "0.68 to 0.86"
+  },
+  "TV / Non-English": {
+   "titles": 124,
+   "rho, window": 0.7841,
+   "95% interval, window": "0.69 to 0.85",
+   "rho, after week 1": 0.675,
+   "95% interval, after week 1": "0.55 to 0.77"
+  },
+  "All four": {
+   "titles": 388,
+   "rho, window": 0.8723,
+   "95% interval, window": "0.84 to 0.90",
+   "rho, after week 1": 0.7652,
+   "95% interval, after week 1": "0.71 to 0.82"
+  }
+ },
+ "ranking_gaps": {
+  "Film / English minus TV / Non-English": {
+   "low": 0.068,
+   "high": 0.2566
+  },
+  "Film / English minus Film / Non-English": {
+   "low": -0.0127,
+   "high": 0.1358
+  },
+  "Film / Non-English minus TV / English": {
+   "low": -0.0868,
+   "high": 0.074
+  }
+ },
+ "week1_share_by_segment": {
+  "Film / English": 0.36,
+  "Film / Non-English": 0.3281,
+  "TV / English": 0.3218,
+  "TV / Non-English": 0.3011
+ },
+ "spread": {
+  "all": {
+   "Film / English": {
+    "titles": 50.0,
+    "p10": 1.7124,
+    "median": 2.7777,
+    "p90": 4.1555,
+    "p90 / p10": 2.4268
+   },
+   "Film / Non-English": {
+    "titles": 93.0,
+    "p10": 1.9113,
+    "median": 3.0476,
+    "p90": 4.7606,
+    "p90 / p10": 2.4908
+   },
+   "TV / English": {
+    "titles": 121.0,
+    "p10": 1.9091,
+    "median": 3.1071,
+    "p90": 5.2031,
+    "p90 / p10": 2.7254
+   },
+   "TV / Non-English": {
+    "titles": 124.0,
+    "p10": 2.3551,
+    "median": 3.3213,
+    "p90": 7.0038,
+    "p90 / p10": 2.974
+   }
+  },
+  "without_staggered": {
+   "Film / English": {
+    "titles": 50.0,
+    "p10": 1.7124,
+    "median": 2.7777,
+    "p90": 4.1555,
+    "p90 / p10": 2.4268
+   },
+   "Film / Non-English": {
+    "titles": 93.0,
+    "p10": 1.9113,
+    "median": 3.0476,
+    "p90": 4.7606,
+    "p90 / p10": 2.4908
+   },
+   "TV / English": {
+    "titles": 104.0,
+    "p10": 1.81,
+    "median": 3.1277,
+    "p90": 5.2058,
+    "p90 / p10": 2.8762
+   },
+   "TV / Non-English": {
+    "titles": 99.0,
+    "p10": 2.4335,
+    "median": 3.3284,
+    "p90": 6.5171,
+    "p90 / p10": 2.678
+   }
+  },
+  "median_all": 3.091
+ },
+ "multiplier_by_days_live": {
+  "2": {
+   "titles": 6,
+   "median multiplier": 8.7738,
+   "low": 3.1467,
+   "high": 14.7551
+  },
+  "3": {
+   "titles": 118,
+   "median multiplier": 3.749,
+   "low": 3.4924,
+   "high": 4.0667
+  },
+  "4": {
+   "titles": 102,
+   "median multiplier": 3.357,
+   "low": 3.1625,
+   "high": 3.6648
+  },
+  "5": {
+   "titles": 97,
+   "median multiplier": 2.7551,
+   "low": 2.6447,
+   "high": 2.875
+  },
+  "6": {
+   "titles": 48,
+   "median multiplier": 2.0935,
+   "low": 1.9091,
+   "high": 2.3846
+  },
+  "7": {
+   "titles": 17,
+   "median multiplier": 2.1273,
+   "low": 1.6846,
+   "high": 4.7727
+  }
+ },
+ "days_live_effect": {
+  "All four segments": {
+   "titles": 388.0,
+   "per_day": -0.1641,
+   "low": -0.1937,
+   "high": -0.1335
+  },
+  "Without staggered series": {
+   "titles": 346.0,
+   "per_day": -0.1571,
+   "low": -0.187,
+   "high": -0.1262
+  },
+  "Film / English": {
+   "titles": 50.0,
+   "per_day": -0.1821,
+   "low": -0.2395,
+   "high": -0.1205
+  },
+  "Film / Non-English": {
+   "titles": 93.0,
+   "per_day": -0.1505,
+   "low": -0.1946,
+   "high": -0.104
+  },
+  "TV / English": {
+   "titles": 121.0,
+   "per_day": -0.1183,
+   "low": -0.1814,
+   "high": -0.0503
+  },
+  "TV / Non-English": {
+   "titles": 124.0,
+   "per_day": -0.2024,
+   "low": -0.256,
+   "high": -0.1449
+  },
+  "Half-year 2024H2": {
+   "titles": 109.0,
+   "per_day": -0.1407,
+   "low": -0.2155,
+   "high": -0.0589
+  },
+  "Half-year 2025H1": {
+   "titles": 97.0,
+   "per_day": -0.1821,
+   "low": -0.2304,
+   "high": -0.1308
+  },
+  "Half-year 2025H2": {
+   "titles": 91.0,
+   "per_day": -0.2064,
+   "low": -0.2603,
+   "high": -0.1486
+  },
+  "Half-year 2026H1": {
+   "titles": 91.0,
+   "per_day": -0.1259,
+   "low": -0.1872,
+   "high": -0.06
+  }
+ },
+ "weekday_mix": {
+  "Film / English": {
+   "Monday": 0.02,
+   "Tuesday": 0.2,
+   "Wednesday": 0.2,
+   "Thursday": 0.06,
+   "Friday": 0.52,
+   "Saturday": 0.0,
+   "Sunday": 0
+  },
+  "Film / Non-English": {
+   "Monday": 0.043,
+   "Tuesday": 0.0323,
+   "Wednesday": 0.2043,
+   "Thursday": 0.2258,
+   "Friday": 0.4946,
+   "Saturday": 0.0,
+   "Sunday": 0
+  },
+  "TV / English": {
+   "Monday": 0.0992,
+   "Tuesday": 0.157,
+   "Wednesday": 0.2562,
+   "Thursday": 0.3719,
+   "Friday": 0.1074,
+   "Saturday": 0.0083,
+   "Sunday": 0
+  },
+  "TV / Non-English": {
+   "Monday": 0.0,
+   "Tuesday": 0.129,
+   "Wednesday": 0.2984,
+   "Thursday": 0.2661,
+   "Friday": 0.2661,
+   "Saturday": 0.0403,
+   "Sunday": 0
+  }
+ },
+ "days_live_effect_dropped_quarters": {
+  "titles": 311,
+  "per_day": -0.1996,
+  "low": -0.229,
+  "high": -0.169
+ },
+ "pair": [
+  {
+   "title": "Homicide: Los Angeles",
+   "release": "2024-07-16T00:00:00.000",
+   "weekday": "Tuesday",
+   "days_live_wk1": 6.0,
+   "wk1_views": 4300000.0,
+   "week1_per_day_live": 716666.6667,
+   "wk2_views": 2400000.0,
+   "views": 12500000.0,
+   "days_in_window": 169
+  },
+  {
+   "title": "Leanne: Season 1",
+   "release": "2025-07-31T00:00:00.000",
+   "weekday": "Thursday",
+   "days_live_wk1": 4.0,
+   "wk1_views": 2700000.0,
+   "week1_per_day_live": 675000.0,
+   "wk2_views": 2800000.0,
+   "views": 12000000.0,
+   "days_in_window": 154
+  }
+ ],
+ "ranking_after_adjustment": {
+  "Film / English": {
+   "raw week 1": 0.9461,
+   "adjusted": 0.971,
+   "gain": 0.0249,
+   "low": 0.0023,
+   "high": 0.0625
+  },
+  "Film / Non-English": {
+   "raw week 1": 0.8842,
+   "adjusted": 0.9196,
+   "gain": 0.0354,
+   "low": 0.0093,
+   "high": 0.0645
+  },
+  "TV / English": {
+   "raw week 1": 0.8858,
+   "adjusted": 0.8936,
+   "gain": 0.0078,
+   "low": -0.0299,
+   "high": 0.0435
+  },
+  "TV / Non-English": {
+   "raw week 1": 0.7841,
+   "adjusted": 0.8512,
+   "gain": 0.0671,
+   "low": 0.0275,
+   "high": 0.1116
+  },
+  "All four": {
+   "raw week 1": 0.8723,
+   "adjusted": 0.8998,
+   "gain": 0.0275,
+   "low": 0.01,
+   "high": 0.0446
+  }
+ },
+ "forecast": {
+  "one multiplier": {
+   "median error": 0.2356,
+   "low": 0.2005,
+   "high": 0.2701,
+   "within 25%": 0.5258,
+   "mean abs log error": 0.3082
+  },
+  "by segment": {
+   "median error": 0.2426,
+   "low": 0.2022,
+   "high": 0.2808,
+   "within 25%": 0.5155,
+   "mean abs log error": 0.3047
+  },
+  "by days live": {
+   "median error": 0.2197,
+   "low": 0.1893,
+   "high": 0.2438,
+   "within 25%": 0.5696,
+   "mean abs log error": 0.2836
+  },
+  "regression": {
+   "median error": 0.2068,
+   "low": 0.1838,
+   "high": 0.2264,
+   "within 25%": 0.5928,
+   "mean abs log error": 0.2571
+  }
+ },
+ "forecast_differences": {
+  "one multiplier minus by segment": {
+   "points": -0.007,
+   "low": -0.0202,
+   "high": 0.0158
+  },
+  "one multiplier minus by days live": {
+   "points": 0.0159,
+   "low": -0.0143,
+   "high": 0.0515
+  },
+  "one multiplier minus regression": {
+   "points": 0.0288,
+   "low": -0.0012,
+   "high": 0.0608
+  }
+ },
+ "forecast_80pct_range": {
+  "low_factor": 0.6788,
+  "high_factor": 1.5125,
+  "example_32m": [
+   21720229.9816,
+   48398474.9147
+  ]
+ },
+ "follow_up": {
+  "titles": 297,
+  "of_eligible": 297,
+  "median_added": 0.1369,
+  "p10_added": 0.0762,
+  "p90_added": 0.2409,
+  "median_added_by_window": {
+   "91-121": 0.165,
+   "122-152": 0.134,
+   "153-184": 0.1165
+  },
+  "spearman_window_vs_window_plus_next": 0.9956
+ },
+ "misses": {
+  "by_views": {
+   "pool": 674,
+   "top_quarter": 170,
+   "missed": 5,
+   "share": 0.0294,
+   "low": 0.0126,
+   "high": 0.067,
+   "missed_weekdays": {
+    "Friday": 3,
+    "Monday": 1,
+    "Saturday": 1
+   }
+  },
+  "by_hours": {
+   "pool": 674,
+   "top_quarter": 169,
+   "missed": 16,
+   "share": 0.0947,
+   "low": 0.0591,
+   "high": 0.1482,
+   "missed_weekdays": {
+    "Friday": 5,
+    "Saturday": 5,
+    "Wednesday": 4,
+    "Monday": 2
+   }
+  }
+ }
+}
